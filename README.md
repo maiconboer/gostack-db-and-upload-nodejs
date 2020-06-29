@@ -12,6 +12,10 @@ Nesse desafio, você deve continuar desenvolvendo a aplicação de gestão de tr
 
 Essa será uma aplicação que deve armazenar transações financeiras de entrada e saída e permitir o cadastro e a listagem dessas transações, além de permitir a criação de novos registros no banco de dados a partir do envio de um arquivo csv.
 
+
+----------------------------------------------
+
+
  **```GET /transactions:```** Essa rota deve retornar uma listagem com todas as transações que você cadastrou até agora, junto com o valor da soma de entradas, retiradas e total de crédito. Essa rota deve retornar um objeto com o formato a seguir:
 
 <pre><code>
@@ -66,9 +70,12 @@ Essa será uma aplicação que deve armazenar transações financeiras de entrad
 }
 </code></pre>
 
+
 **```DELETE /transactions/:id:```** A rota deve deletar uma transação com o id presente nos parâmetros da rota;
 
 **```POST /transactions/import:```** A rota deve permitir a importação de um arquivo com formato .csv contendo as mesmas informações necessárias para criação de uma transação id, title, value, type, category_id, created_at, updated_at, onde cada linha do arquivo CSV deve ser um novo registro para o banco de dados, e por fim retorne todas as transactions que foram importadas para seu banco de dados. O arquivo csv, deve seguir o seguinte modelo
+
+----------------------------------------------
 
 Específicação dos testes
 
@@ -76,8 +83,14 @@ Em cada teste, tem uma breve descrição no que sua aplicação deve cumprir par
 
 Caso você tenha dúvidas quanto ao que são os testes, e como interpretá-los, dé uma olhada em nosso FAQ.
 
+----------------------------------------------
+
 **Para esse desafio, temos os seguintes testes:
 ⚠️ Antes de rodar os testes, crie um banco de dados com o nome "gostack_desafio06_tests" para que todos os testes possam executar corretamente ⚠️**
+
+
+----------------------------------------------
+
 
 **```should be able to create a new transaction:```** Para que esse teste passe, sua aplicação deve permitir que uma transação seja criada, e retorne um json com a transação criado.
 
