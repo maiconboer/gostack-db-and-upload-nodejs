@@ -2,9 +2,11 @@
 Desafio 06 - Banco de dados e upload de arquivos no Node.js
 
 ----------------------------------------------
+<p align=center>
+<img src=".github/banner.png" width="800"/>
+</p>
 
-
-🚀 Sobre o desafio
+**🚀 Sobre o desafio**
 
 Nesse desafio, você deve continuar desenvolvendo a aplicação de gestão de transações, treinando o que você aprendeu até agora no Node.js junto ao TypeScript, mas dessa vez incluindo o uso de banco de dados com o TypeORM e envio de arquivos com o Multer!
 
@@ -74,8 +76,8 @@ Em cada teste, tem uma breve descrição no que sua aplicação deve cumprir par
 
 Caso você tenha dúvidas quanto ao que são os testes, e como interpretá-los, dé uma olhada em nosso FAQ.
 
-Para esse desafio, temos os seguintes testes:
-⚠️ Antes de rodar os testes, crie um banco de dados com o nome "gostack_desafio06_tests" para que todos os testes possam executar corretamente ⚠️
+**Para esse desafio, temos os seguintes testes:
+⚠️ Antes de rodar os testes, crie um banco de dados com o nome "gostack_desafio06_tests" para que todos os testes possam executar corretamente ⚠️**
 
 **```should be able to create a new transaction:```** Para que esse teste passe, sua aplicação deve permitir que uma transação seja criada, e retorne um json com a transação criado.
 
